@@ -39,6 +39,7 @@ export default class Converter extends Component {
                     onChange={(event)=>{this.setState({ currencyA_value: event.target.value })}} ></input>
                 <div className="Button">
                     <input type="button"
+                        id="submit"
                         value="Converter"
                         onClick={this.convert} ></input>
                 </div>
