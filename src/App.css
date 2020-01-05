@@ -1,8 +1,11 @@
+* {
+  background-color: #4A69FF;
+}
+
 .App {
   text-align: center;
   margin: auto;
-  background-color: #4A69FF;
-  min-height: auto;
+  padding-top: 50px;
 }
 
 .Title{
@@ -14,6 +17,7 @@
   display: flex;
   margin-top: 40px;
   justify-content: space-around;
+  height: 100%;
 }
 
 .BottomPage{

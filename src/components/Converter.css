@@ -1,5 +1,20 @@
 .Converter{
-    padding: 20px;
+    padding: 70px 80px 20px 80px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     background-color: white;
+}
+
+h2, input, .Result, .Button{
+    background-color: white;
+    text-align: center;
+}
+
+h3{
+    font-weight: normal;
+    background-color: white;
+    padding-top: 15px;
+}
+
+.button{
+    padding-top: 4px;
 }
