@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Converter.css'
 
 export default class Converter extends Component {
     
@@ -14,12 +15,13 @@ export default class Converter extends Component {
     }
 
     convert(){
-
+        let sentence = `${this.props.currencyA}_${this.props.currencyB}`; 
+        let url = `http://free.currencyconverterapi.com/api/v5/convert?q=${sentence}`
     }
 
     render(){
         return (
-            <div className="converter">
+            <div className="Converter">
                 <h2>{this.props.currencyA} to {this.props.currencyB}</h2>
                 <input type="input"></input>
                 <div>
