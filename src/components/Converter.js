@@ -40,7 +40,7 @@ export default class Converter extends Component {
                 <div className="Button">
                     <input type="button"
                         id="submit"
-                        value="Converter"
+                        value="Convert"
                         onClick={this.convert} ></input>
                 </div>
                 <div className="Result">
