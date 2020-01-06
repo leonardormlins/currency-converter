@@ -34,13 +34,13 @@ export default class Converter extends Component {
     render(){
         return (
             <div className="Converter">
-                <h2>{this.props.currencyA} to {this.props.currencyB}</h2>
+                <h2>{this.props.currencyA} para {this.props.currencyB}</h2>
                 <input type="input"
                     onChange={(event)=>{this.setState({ currencyA_value: event.target.value })}} ></input>
                 <div className="Button">
                     <input type="button"
                         id="submit"
-                        value="Convert"
+                        value="Converter"
                         onClick={this.convert} ></input>
                 </div>
                 <div className="Result">

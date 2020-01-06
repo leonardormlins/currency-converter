@@ -6,13 +6,13 @@ function App() {
   return (
     <div className="App">
       <div className="Title">
-        <h1>Currency Converter</h1>
+        <h1>Conversor de Moeda</h1>
       </div>
       <div className="Line">
         <Converter currencyA="USD" currencyB="BRL"></Converter>
       </div>
       <div className="BottomPage">
-        <p>Developed by LeonardoLins</p>
+        <p>Desenvolvido por LeonardoLins</p>
       </div>
     </div>
   );
